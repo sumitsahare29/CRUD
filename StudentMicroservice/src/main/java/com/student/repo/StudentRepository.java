@@ -10,6 +10,4 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
 	
 	List<Student> findByInstituteId(Integer instituteId);
 
-	String deleteByInstituteId(Integer instituteId);
-
 }
